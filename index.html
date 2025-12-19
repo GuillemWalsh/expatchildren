@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integración Lingüística Infantil | AI T.H.I.N.K.</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fuente moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- HERO -->
+<section class="relative min-h-screen flex items-center justify-center">
+  <img src="ninos-diversos-1.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Niños diversos">
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <div class="relative z-10 text-center px-6 max-w-4xl text-white">
+    <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+      El idioma no debería ser<br class="hidden md:block"> una barrera para aprender
+    </h1>
+    <p class="text-lg md:text-xl text-gray-200 mb-8">
+      Ayudamos a niños extranjeros que llegan a Illes Balears a aprender catalán
+      y a integrarse con éxito en el sistema educativo.
+    </p>
+    <a href="#contacto" class="inline-block bg-yellow-400 text-gray-900 font-semibold px-8 py-4 rounded-full hover:bg-yellow-300 transition">
+      Quiero más información
+    </a>
+  </div>
+</section>
+
+<!-- PROBLEMA -->
+<section class="py-20 bg-white px-6">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-3xl font-bold mb-6">
+        Un reto educativo real y urgente
+      </h2>
+      <p class="text-gray-600 text-lg mb-4">
+        Muchos niños llegan a las Illes Balears desde países donde nunca han tenido
+        contacto con la lengua catalana.
+      </p>
+      <p class="text-gray-600 text-lg">
+        Al incorporarse directamente al sistema educativo, se encuentran con una
+        barrera lingüística que impide la correcta asimilación de conocimientos.
+      </p>
+    </div>
+    <div>
+      <img src="ninos-diversos-2.jpg" class="rounded-xl shadow-lg" alt="Niños aprendiendo juntos">
+    </div>
+  </div>
+</section>
+
+<!-- SOLUCIÓN -->
+<section class="py-20 bg-gray-100 px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">
+      Nuestra solución basada en Inteligencia Artificial
+    </h2>
+    <p class="text-gray-600 text-lg max-w-3xl mx-auto mb-12">
+      Utilizamos IA para crear itinerarios de aprendizaje del catalán adaptados
+      a cada niño, facilitando su integración académica y social.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-4">Aprendizaje personalizado</h3>
+        <p class="text-gray-600">
+          Contenidos adaptados al nivel, idioma de origen y ritmo de cada alumno.
+        </p>
+      </div>
+      <div class="bg-white p-8 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-4">Uso práctico del catalán</h3>
+        <p class="text-gray-600">
+          Lengua aplicada a las asignaturas reales del aula.
+        </p>
+      </div>
+      <div class="bg-white p-8 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-4">Inclusión y confianza</h3>
+        <p class="text-gray-600">
+          Refuerza la autoestima y la integración social del alumnado.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMAGEN EMOCIONAL -->
+<section class="py-20 bg-white px-6">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <img src="ninos-diversos-3.jpg" class="rounded-xl shadow-lg" alt="Niños integrados">
+    </div>
+    <div>
+      <h2 class="text-3xl font-bold mb-6">
+        Igualdad de oportunidades desde el primer día
+      </h2>
+      <p class="text-gray-600 text-lg">
+        Cuando los niños entienden el idioma, pueden aprender, participar
+        y sentirse parte de la comunidad educativa.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="py-20 bg-gray-900 text-white px-6">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-6">
+      Contacto
+    </h2>
+    <p class="text-gray-300 text-center mb-12">
+      ¿Te interesa el proyecto o quieres colaborar?
+    </p>
+
+    <!-- Sustituye action por el endpoint cuando lo tengas -->
+    <form action="#" method="POST" class="bg-white text-gray-800 p-8 rounded-xl shadow-lg grid gap-6">
+      <div>
+        <label class="block font-semibold mb-2">Nombre</label>
+        <input type="text" name="nombre" required class="w-full p-3 border rounded-lg">
+      </div>
+      <div>
+        <label class="block font-semibold mb-2">Email</label>
+        <input type="email" name="email" required class="w-full p-3 border rounded-lg">
+      </div>
+      <div>
+        <label class="block font-semibold mb-2">Mensaje</label>
+        <textarea name="mensaje" rows="4" required class="w-full p-3 border rounded-lg"></textarea>
+      </div>
+      <button type="submit" class="bg-yellow-400 text-gray-900 font-semibold py-3 rounded-lg hover:bg-yellow-300 transition">
+        Enviar mensaje
+      </button>
+    </form>
+
+    <p class="text-center text-gray-400 mt-8">
+      O escríbenos a <br>
+      <a href="mailto:guillemrossello@gmail.com" class="underline">
+        guillemrossello@gmail.com
+      </a>
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-gray-400 text-center py-6">
+  <p>© 2025 · Proyecto educativo · AI T.H.I.N.K.</p>
+</footer>
+
+</body>
+</html>
